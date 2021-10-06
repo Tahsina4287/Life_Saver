@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backcolour"
+    tools:context=".MainActivity"
+    android:padding="30dp">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:id="@+id/linear">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:foregroundGravity="center"
+            android:src="@mipmap/front_foreground"
+            android:id="@+id/image"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/image"
+           android:layout_marginTop="20dp"
+           android:fontFamily="@font/muli_extrabold"
+           android:gravity="center"
+           android:text="@string/heading"
+           android:textAlignment="center"
+           android:textSize="30sp"
+           android:textAllCaps="true"
+           android:id="@+id/text"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/text"
+           android:fontFamily="@font/muli_extrabold"
+           android:gravity="center"
+           android:text="@string/moral"
+           android:textAlignment="center"
+           android:textSize="10sp"
+           android:textAllCaps="true"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/linear"
+       android:layout_marginTop="5dp">
+
+       <Button
+           android:id="@+id/sign_in"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:layout_margin="5dp"
+           android:background="@color/btnfor"
+           android:textColor="@color/white"
+           android:text="Login" />
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:layout_margin="5dp"
+           android:background="@color/btnfor"
+           android:textColor="@color/white"
+           android:text="Signup"
+           android:id="@+id/sign_up"
+        />
+       <Button
+           android:id="@+id/sign_in_admin"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:layout_margin="5dp"
+           android:background="@color/btnfor"
+           android:textColor="@color/white"
+           android:text="Admin" />
+   </LinearLayout>
+   </LinearLayout>
+</RelativeLayout>

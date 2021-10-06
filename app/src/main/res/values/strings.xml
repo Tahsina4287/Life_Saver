@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Life_Saver</string>
+    <string name="heading">Save life Give blood</string>
+    <string name="moral">"Donate Blood Today So That No One Ever Has To Suffer From A Lack Of Blood"</string>
+    <string name="Log">Login</string>
+    z
+    <string name="signup">Signup</string>
+    <string name="hint1">+880</string>
+    <string name="hint2">Enter Password</string>
+    <string name="hint3">Enter Your Name</string>
+    <string name="hint4">Your Area</string>
+    <string name="hint5">Enter Your Blood Group</string>
+    <string name="hint6">Enter Your Date of Birth</string>
+    <string name="remember">Remember me</string>
+    <string name="forget">Forget Password</string>
+    <string name="login">LogIn</string>
+    <string name="res">Register</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+</resources>
